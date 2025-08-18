@@ -4,10 +4,8 @@ let p=document.getElementById("counter");
 function incrementfunc(){
 	let n=parseInt(p.textContent);
 	  
-    if (isNaN(n)) {
-        alert("Current value is not a number!");
-        return;
-	alert(`The value is ${n}`);
+    
+	alert(`Current Value : ${n}`);
 	p.textContent=n+1;
 }
 
